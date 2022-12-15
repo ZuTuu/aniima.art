@@ -53,7 +53,7 @@ refresh.onclick = () => {
     for(let i=1; i<=6; i++){
         valuesosmed = document.getElementById("gambarartist" + i);
         sosmedtext = document.getElementById("artist" + i).innerHTML;
-        if(i <= 3){
+        if(i % 2 != 0){
             sosmed.src = valuesosmed.src;
             
             ctx.drawImage(sosmed, xlength, 1120, 37, 37);
@@ -65,7 +65,7 @@ refresh.onclick = () => {
             
 
             xlength = xlength + 248;
-        }else if (i >= 3){
+        }else if (i % 2 == 0){
             ctx.fillStyle = "#ffffff"
             ctx.font = "25px Bahnscrift";
 
