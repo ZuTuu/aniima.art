@@ -1,7 +1,7 @@
 # aniima.art
 aniima.art's own image cropper and overlay edit in HTML
 
-# Usage
+# Installation
 1. Download this repo
 2. Extract it
 3. Run a web server with your favourite tool
@@ -18,6 +18,22 @@ http-server
 ```
 
 4. Access it in your browser by going to localhost:8000
+
+# Usage
+![image](https://user-images.githubusercontent.com/51734083/207870514-fcb1b107-46ab-4082-a95d-5a0a9a2058aa.png)
+
+but basics stuff:
+
+![image](https://user-images.githubusercontent.com/51734083/207870857-b3d73d8a-e82c-4311-a224-1457ed5dfff9.png)
+Click any of the slides to put an image in it. *Except for slide 1 because it automatically uses the slide2 image and blurs it*
+
+![image](https://user-images.githubusercontent.com/51734083/207871610-decaebb4-36a3-4772-b638-bf03772620f1.png)
+Click refresh to update the overlay.
+Save is for saving the files
+Reset is for resetting slide1
+
+![image](https://user-images.githubusercontent.com/51734083/207871767-fa5139cf-22fb-44b6-b0c5-589e59e82480.png)
+Click any of theese and the overlay will be changed according to theese after you click refresh
 
 # Stuff
 **FOLLOW US!!**
