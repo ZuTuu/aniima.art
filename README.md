@@ -21,6 +21,7 @@ http-server
 
 # Usage
 ![image](https://user-images.githubusercontent.com/51734083/207870514-fcb1b107-46ab-4082-a95d-5a0a9a2058aa.png)
+
 but basics stuff:
 ## Click any of the slides to put an image in it. *Except for slide 1 because it automatically uses the slide2 image and blurs it*
 ![image](https://user-images.githubusercontent.com/51734083/207870857-b3d73d8a-e82c-4311-a224-1457ed5dfff9.png)
