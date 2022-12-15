@@ -12,7 +12,7 @@ Bahnscrift.load().then((font) => {
     document.fonts.add(font);
 })
 
-const Kiona = new FontFace('Kiona-Regular', 'url(font/Kiona-Regular.TTF)');
+const Kiona = new FontFace('Kiona-Regular', 'url(font/Kiona-Regular.ttf)');
 Kiona.load().then((font) => {
     document.fonts.add(font);
 })
