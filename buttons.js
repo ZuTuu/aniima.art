@@ -2,6 +2,7 @@ var reset = document.getElementById("reset");
 var save = document.getElementById("save");
 var judul = document.getElementById("judul");
 var refresh = document.getElementById("refresh");
+var caption = document.getElementById("caption");
 
 var sosmed = new Image();
 var shapes = new Image(); shapes.src = "imgs/shapes.png";
@@ -81,4 +82,16 @@ refresh.onclick = () => {
     ctx.fillText($('#judul').html(), 66, 1105)
     ctx.drawImage(shapes, 0, 0, 1080, 1350)
     fileInput1.src = canvas.toDataURL("image/png");
+}
+
+caption.onclick = () => {
+    let judul = prompt("judul anda?", "");
+    let funfact = prompt("funfact?", "");
+    let arr = [];
+    for(let i=1; i<=6; i++){
+        var artis = document.getElementById("artist" + i).innerHTML
+        arr.push(artis);
+    }
+    var result = judul +"\n↬\n"+ funfact +"\nᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳ\nGo Follow the Artist!\n.\n1. "+arr[0]+"\n2. "+arr[1]+"\n3. "+arr[2]+"\n4. "+arr[3]+"\n5. "+arr[4]+"\n6. "+arr[5]+"\nᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳᅳ\n.\n.\n[Ignore]\n#anime #animepictures #animeart #animes #animelife #animepics #animedrawing #animegirl #animeartwork #kawaii #kawaiipic #animegirls #artwork #pixiv #animekawaii #animeart #drawing #"
+    prompt("CTRL + C guy", result)
 }
